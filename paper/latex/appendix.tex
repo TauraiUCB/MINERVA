@@ -1,12 +1,11 @@
-\section{Proofs}
-\label{sec.proofs}
+
 
 \begin{proof}[Proof of Lemma \ref{lemma.experiment1}]
 	For ease of notation, 
 	take 
 	$k_0 = 1$, 
 	$k_1 = 2$. 
-	We only need to prove equation \eqref{eq.exp1pairwisemi}
+	We only need to prove $I(X_i; Y) = 0,$ %equation \eqref{eq.exp1pairwisemi}
 	for $i = k_0, k_1$. 
 	For integers $i$, $y$, 
 	let 
@@ -158,8 +157,8 @@
 			$.
 	Plugging these in the definition of the mutual information between $(X_1, X_2)$ and $Y$,
 	we conclude
-	\begin{equation*}
-		\begin{split}
+	\begin{align*}
+		%\begin{split}
 			I(X_1, X_2; Y)
 			& =
 			\frac{1}{m\squared}
@@ -208,7 +207,7 @@
 			+
 			\frac{1}{m}\log m
 			.
-		\end{split}
-	\end{equation*}
+		%\end{split}
+	\end{align*}
 
 \end{proof}

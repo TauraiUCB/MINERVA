@@ -1,19 +1,4 @@
 
-\newsavebox{\fminipagebox}
-\NewDocumentEnvironment{fminipage}{m O{\fboxsep}}
-{\par\kern#2\noindent\begin{lrbox}{\fminipagebox}
-		\begin{minipage}{#1}\ignorespaces}
-		{\end{minipage}\end{lrbox}%
-	\makebox[#1]{%
-		\kern\dimexpr-\fboxsep-\fboxrule\relax
-		\fbox{\usebox{\fminipagebox}}%
-		\kern\dimexpr-\fboxsep-\fboxrule\relax
-	}\par\kern#2
-}
-
-
-
-
 \newcommand{\R}{\mathbb{R}}
 \newcommand{\Rd}{\R^{d}}
 \newcommand{\Rn}{\R^{n}}
